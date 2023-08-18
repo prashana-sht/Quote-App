@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="styleS.css">
+</head>
+<body>
+    <div class="quote">
+        <h1>Quote App</h1>
+        <img src="moon.png" id="icon">
+    <div class="category">
+        <label for="categorySelect"><b>Select a category: </b></label>
+        <select id="categorySelect">
+            <option value="none" id="none">None</option>
+            <option value="science" id="science">Science</option>
+            <option value="inspiration" id="inspiration">Inspiration</option>
+        </select>
+        <span class="font">
+        <img src="inc.png"  id="inc">
+        <img src="dec.png"  id="dec">
+        </span>
+    </div>
+
+    <p id="quoteText">Click the button to generate a quote.</p>
+
+    <div class="buttons">
+        <button id="previousButton">Previous</button>
+        <button id="generateButton">Generate Random Quote</button>
+        <button id="nextButton">Next</button>
+    </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
